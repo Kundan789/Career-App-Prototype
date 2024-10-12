@@ -1,0 +1,186 @@
+/* Default Dark Theme Colors */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar a {
+    color: #ffffff;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+    margin-bottom: 80px; /* Prevent overlap with navbar */
+}
+.job-card {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+.apply-btn {
+    background-color: #0048ff;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+.apply-btn:hover {
+    background-color: #4b90ff;
+}
+.save-btn {
+    color: #007bff;
+    text-align: right;
+    cursor: pointer;
+}
+.save-btn:hover {
+    color: #0056b3;
+}
+input[type="text"], input[type="email"], input[type="file"], .form-control {
+    background-color: #292929;
+    border: none;
+    color: #ffffff;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color: #888888;
+}
+.form-label {
+    color: #cccccc;
+}
+h3, h5, h6 {
+    color: #f5f5f5;
+}
+.tab-content {
+    margin-top: 20px;
+}
+.width{
+    display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+/* Button colors */
+.nav-link {
+    /* color: #ffffff; */
+}
+.nav-link.active {
+    background-color: #007bff !important;
+    border-radius: 5px;
+}
+/* Light Mode Styling */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+.navbar.light-mode {
+    background-color: #ffffff;
+}
+.job-card.light-mode {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input[type="text"].light-mode, input[type="email"].light-mode, input[type="file"].light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+input[type="text"].light-mode::placeholder, input[type="email"].light-mode::placeholder {
+    color: #555555;
+}
+.form-label.light-mode {
+    color: #333333;
+}
+.navbar a.light-mode {
+    color: #000000;
+}
+.navbar a.light-mode:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+h3.light-mode, h5.light-mode, h6.light-mode {
+    color: #000000;
+}
+.save-btn.light-mode {
+    color: #007bff;
+}
+.btn1{
+    margin-left: -14px;
+}
+.thb{
+    width: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
